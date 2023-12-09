@@ -1,0 +1,26 @@
+body{
+    background-color:black ;
+    margin:0 ;
+}
+h1{
+    Color:red;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+
+
+}
+.boxes{
+    margin:45px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap:20px;
+
+}
+.box{
+    height:100px;
+    background-color:gray;
+    border:5px solid aliceblue;
+    cursor: pointer;
+}
